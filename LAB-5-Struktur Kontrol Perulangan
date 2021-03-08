@@ -1,0 +1,224 @@
+# 71200595 Gerry Sunjay Junjung
+# Bu Susi seorang guru SMP yang akan mengada Ujian Pengetahuan Umum meminta tolong kepadamu untuk membuat
+# sebuah Pemrograman untuk Ujian, dimana sebagai ketentuan yaitu :
+# 1. Jika jawaban benar, akan ada penambahan poin 10 (tergantung jumlah soal)
+# 2. Jika jawaban salah maka para siswa boleh memilih untuk coba menjawab lagi atau menyerah
+# 3. Percobaan pengulangan untuk menjawab maksimmal sampai 5 Kali, dan secara otomatis akan ke soal berikutnya
+
+print ("=============== Ujian Pengetahuan Umum ===============")
+
+nama = input("Nama Anda : ")
+poin = 0
+# Variabel Pengulangan sampai 10 karena 10 soal (tergantung jumlah soal)
+a1 = 0
+a2 = 0
+a3 = 0
+a4 = 0
+a5 = 0
+a6 = 0
+a7 = 0
+a8 = 0
+a9 = 0
+a10 = 0
+
+# Variabel untuk jawaban
+jawaban1 = 'Indonesia Raya'
+jawaban2 = 'Fatmawati'
+jawaban3 = 'Usaha Mikro Kecil Menengah'
+jawaban4 = 'Ringgit'
+jawaban5 = 'Donald Trump'
+jawaban6 = 'Italia'
+jawaban7 = 'Aloe Vera'
+jawaban8 = 'CO2'
+jawaban9 = 'India'
+jawaban10 = 'Avtur'
+while  a1 < 5:
+    soal1 = input("1. Lagu Kebangsaan Indonesia adalah? ")
+    if soal1 == jawaban1:
+        print ('Jawaban anda benar')
+        poin1 = poin+10
+        print ('Poin Anda ',poin1)
+        a1 += 5
+    else:
+        print ('Jawaban Salah')
+        skip = input( 'Apakah Anda Menyerah? ')
+        y = 'Iya'
+        t = 'Tidak'
+        if skip == y:
+            poin1 = 0
+            print ('Poin Anda ',poin1)
+            a1 += 5
+        else:
+            a1 += 1
+while a2 < 5:
+    soal2 = input("2. Siapakah penjahit bendera Merah Putih Indonesia? ")
+    if soal2 == jawaban2:
+        print ('Jawaban anda benar')
+        poin2 = poin1+10
+        print ('Poin Anda ',poin2)
+        a2 += 5
+    else:
+        print ('Jawaban Salah')
+        skip = input( 'Apakah Anda Menyerah? ')
+        y = 'Iya'
+        t = 'Tidak'
+        if skip == y:
+            poin2 = poin1+0
+            print ('Poin Anda ',poin2)
+            a2 += 5
+        else:
+            a2 += 1
+while a3 < 5:
+    soal3 = input("3. Kepanjangan dari UMKM adalah ? ")
+    if soal3 == jawaban3:
+        print ('Jawaban anda benar')
+        poin3 = poin2+10
+        print ('Poin Anda ',poin3)
+        a3 += 5
+    else:
+        print ('Jawaban Salah')
+        skip = input( 'Apakah Anda Menyerah? ')
+        y = 'Iya'
+        t = 'Tidak'
+        if skip == y:
+            poin3 = poin2+0
+            print ('Poin Anda ',poin3)
+            a3 += 5
+        else:
+            a3 += 1
+while a4 < 5:
+    soal4 = input("4. Mata uang Malaysia? ")
+    if soal4 == jawaban4:
+        print ('Jawaban anda benar')
+        poin4 = poin3+10
+        print ('Poin Anda ',poin4)
+        a4 += 5
+    else:
+        print ('Jawaban Salah')
+        skip = input( 'Apakah Anda Menyerah? ')
+        y = 'Iya'
+        t = 'Tidak'
+        if skip == y:
+            poin4 = poin3+0
+            print ('Poin Anda ',poin4)
+            a4 += 5
+        else:
+            a4 += 1
+while a5 < 5:
+    soal5 = input("5. Presiden Amerika Serikat? ")
+    if soal5 == jawaban5:
+        print ('Jawaban anda benar')
+        poin5 = poin4+10
+        print ('Poin Anda ',poin5)
+        a5 += 5
+    else:
+        print ('Jawaban Salah')
+        skip = input( 'Apakah Anda Menyerah? ')
+        y = 'Iya'
+        t = 'Tidak'
+        if skip == y:
+            poin5 = poin4+0
+            print ('Poin Anda ',poin5)
+            a5 += 5
+        else:
+            a5 += 1
+while a6 < 5:
+    soal6 = input("6. Menara Pizza dari negara? ")
+    if soal6 == jawaban6:
+        print ('Jawaban anda benar')
+        poin6 = poin5+10
+        print ('Poin Anda ',poin6)
+        a6 += 5
+    else:
+        print ('Jawaban Salah')
+        skip = input( 'Apakah Anda Menyerah? ')
+        y = 'Iya'
+        t = 'Tidak'
+        if skip == y:
+            poin6 = poin5+0
+            print ('Poin Anda ',poin6)
+            a6 += 5
+        else:
+            a6 += 1
+while a7 < 5:
+    soal7 = input("7. Nama ilmiah Lidah Buaya adalah? ")
+    if soal7 == jawaban7:
+        print ('Jawaban anda benar')
+        poin7 = poin6+10
+        print ('Poin Anda ',poin7)
+        a7 += 5
+    else:
+        print ('Jawaban Salah')
+        skip = input( 'Apakah Anda Menyerah? ')
+        y = 'Iya'
+        t = 'Tidak'
+        if skip == y:
+            poin7 = poin6+0
+            print ('Poin Anda ',poin7)
+            a7 += 5
+        else:
+            a7 += 1
+while a8 < 5:
+    soal8 = input("8. Apa lambang dari Karbon Dioksida? ")
+    if soal8 == jawaban8:
+        print ('Jawaban anda benar')
+        poin8 = poin7+10
+        print ('Poin Anda ',poin8)
+        a8 += 5
+    else:
+        print ('Jawaban Salah')
+        skip = input( 'Apakah Anda Menyerah? ')
+        y = 'Iya'
+        t = 'Tidak'
+        if skip == y:
+            poin8 = poin7+0
+            print ('Poin Anda ',poin8)
+            a8 += 5
+        else:
+            a8 += 1
+while a9 < 5:
+    soal9 = input("9. Taj Mahal berada di negara? ")
+    if soal9 == jawaban9:
+        print ('Jawaban anda benar')
+        poin9 = poin8+10
+        print ('Poin Anda ',poin9)
+        a9 += 5
+    else:
+        print ('Jawaban Salah')
+        skip = input( 'Apakah Anda Menyerah? ')
+        y = 'Iya'
+        t = 'Tidak'
+        if skip == y:
+            poin9 = poin8+0
+            print ('Poin Anda ',poin9)
+            a9 += 5
+        else:
+            a9 += 1
+while a10 < 5:
+    soal10 = input("10. Bahan bakar Pesawat adalah? ")
+    if soal10 == jawaban10:
+        print ('Jawaban anda benar')
+        poin10 = poin9+10
+        print ('Poin Anda ',poin10)
+        a10 += 5
+    else:
+        print ('Jawaban Salah')
+        skip = input( 'Apakah Anda Menyerah? ')
+        y = 'Iya'
+        t = 'Tidak'
+        if skip == y:
+            poin10 = poin9+0
+            print ('Poin Total Anda Adalah',poin10)
+            a10 += 5
+        else:
+            a10 += 1
+
+if poin10 < 70:
+    print ('Poin Total Anda ',poin10)
+    print ('Maaf ',nama,' Poin Anda Kurang, Makanya Belajar')
+elif poin10 >= 70:
+    print ('Poin Total Anda ',poin10)
+    print ('Selamat ',nama, ' Poin Anda Tuntas KKM')
+elif poin10 == 100:
+    print('Selamat ',nama,' Poin Anda Sempurna')
+print ('=============== Terimakasih ===============')
